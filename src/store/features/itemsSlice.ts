@@ -9,7 +9,7 @@ const initialState: ItemsState = {
     items: []
 };
   
-export const ItemsSlice = createSlice({
+export const itemsSlice = createSlice({
     name: 'items',
     initialState,
     reducers: {
@@ -19,7 +19,7 @@ export const ItemsSlice = createSlice({
     }
   });
   
-  export const { setItems } = ItemsSlice.actions;
+  export const { setItems } = itemsSlice.actions;
   
-  export default ItemsSlice.reducer;
+  export default itemsSlice.reducer;
   

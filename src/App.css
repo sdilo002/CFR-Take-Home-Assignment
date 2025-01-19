@@ -1,0 +1,222 @@
+.cards-list-container {
+    width: 100%;
+    max-width: 1306px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.cards-list-container .card-container {
+  box-shadow: unset;
+  position: relative;
+}
+
+.absolute-container {
+  position: absolute;
+  right: 0px;
+}
+  
+.section-title-circle {
+  width: 86px;
+  height: 86px;
+  top: 44px;
+  left: 1059px;
+  gap: 0px;
+  border-radius: 48px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Stock-bg-color {
+  background: #4CAF50;
+}
+
+.Crypto-bg-color {
+  background: #00B0FF;
+}
+
+.NFT-bg-color {
+  background: #F50057;
+}
+
+.type-badge {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.Stock-badge.type-badge {
+  background: #E8F5E9;
+  color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.Crypto-badge.type-badge {
+  background: #E3F2FD;
+  color: #00B0FF;
+  border-color: #00B0FF;
+}
+
+.NFT-badge.type-badge {
+  background: #FCE4EC;
+  color: #F50057;
+  border-color: #F50057;
+}
+
+.logo-container {
+  max-width: 276px;
+  max-height: 286px;
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  position: relative;
+}
+
+.logo-container, .logo-container img {
+  border-radius: 8px 24px 8px 24px;
+}
+
+.Stock-logo {
+  background: #E8F5E9;
+  color: #4CAF50;
+}
+
+.Crypto-logo {
+  background: #E3F2FD;
+  color: #00B0FF;
+}
+
+.NFT-logo {
+  background: #FCE4EC;
+  color: #F50057;
+}
+
+.logo-container .type-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 54px;
+  border-radius: 100px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 4px;
+  text-align: center;
+}
+
+.logo-name {
+  position: absolute;
+  color: #FFFFFF;
+  width: 244px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 0px 0px 8px 24px;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bookmark-tab {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 0px 0px 8px 8px;
+  opacity: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Stock-bookmark-tab, .Stock-link-tab {
+  background: #4CAF50;
+}
+
+.Crypto-bookmark-tab, .Crypto-link-tab {
+  background: #00B0FF;
+}
+
+.NFT-bookmark-tab, .NFT-link-tab {
+  background: #FCE4EC;
+  background: #F50057;
+}
+
+.bookmark-tab .icon-light, .link-tab .icon-light{
+  color: #FFFFFF;
+}
+
+.card-content-container {
+  width: 361px;
+  max-height: 380px;
+  border-radius: 24px 8px 24px 8px;
+  border-width: 3px;
+  border-style: solid;
+  background-image: url("/assets/paper.png");
+  background-size: contain;
+  margin-top: 100px;
+  padding: 0px !important;
+}
+
+.Stock-card-content-container {
+  border-color: #4CAF50;
+}
+
+.Crypto-card-content-container {
+  border-color: #00B0FF;
+}
+
+.NFT-card-content-container {
+  border-color: #F50057;
+}
+
+.link-tab-container {
+  height: 180px;
+}
+
+.link-tab {
+  width: 60px;
+  height: 60px;
+  border-radius: 0px 8px 8px 0px;
+  opacity: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+
+.stats-container {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0px 0px 24px 8px;
+  padding: 5px 10px 10px 10px;
+}
+
+.stats-container h6 {
+  color: #FFFFFF;
+}
+
+.stats-container button {
+  background: var(--primary-main, rgba(33, 150, 243, 1));
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+  text-transform: none;
+}
+
+.change-badge {
+  border-radius: 100px;
+  padding: 2px 10px;
+}
+
+.change-badge-negative {
+  border-width: 2px;
+  border-style: solid;
+  background: var(--red-50, #FEEBEE);
+  border: 2px solid var(--error-main, #D32F2F);
+  color: #D32F2F;
+}
+
+.change-badge-positive {
+  background: var(--green-50, rgba(232, 245, 233, 1));
+  border: 2px solid var(--success-light, rgba(76, 175, 80, 1));
+  color: #4CAF50;
+}

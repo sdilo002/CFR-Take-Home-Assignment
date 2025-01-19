@@ -11,7 +11,7 @@ export const fetchItems = async (): Promise<Item[]> => {
           price: 137.71,
           currency: "USD",
           priceType: "Price",
-          changePercentage: 2.19,
+          changePercentage: -2.19,
           changeType: "Change 24hrs",
           marketCap: 3.31,
           marketCapUnit: "T",
